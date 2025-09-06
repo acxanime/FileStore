@@ -76,7 +76,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
                 f"💵 ASK UPI ID TO ADMIN AND PAY THERE -  <code>{UPI_ID}</code>\n\n\n"
                 f"♻️ After Payment You Will Get Instant Membership \n\n\n"
-                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask @admin sitaratoons_support @Sitaratoons_Support_bot </b>"
+                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask @sitaratoons_support @Sitaratoons_Support_bot </b>"
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
