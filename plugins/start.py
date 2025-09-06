@@ -190,13 +190,14 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟs •", url="https://t.me/+Lue7ExXUBak1NDhl")],
-
-    [
-                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ʜᴇʟᴘ •', callback_data = "help")
-
-    ]
+                    [
+                    InlineKeyboardButton('ʜᴇɴᴛᴀɪ', url='https://t.me/+olpo9bJqkRs3NDA1'),
+                    InlineKeyboardButton('ᴊᴀᴘᴀɴᴇꜱᴇ', url='https://t.me/+fG1D7vERvF84NjA1')
+                ],
+                [
+                    InlineKeyboardButton('ᴄᴏꜱᴘʟᴀʏ', url='https://t.me/+NXzyYEThxBk1ZWM1'),
+                    InlineKeyboardButton('ᴏɴʟʏꜰᴀɴꜱ', url='https://t.me/+rDFmZPQWIS9mYjhl')
+                ]        
             ]
         )
         await message.reply_photo(
